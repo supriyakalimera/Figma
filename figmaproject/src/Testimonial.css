@@ -1,0 +1,109 @@
+/* Full-width container with spacing */
+.testimonial-container {
+    width: 100%;
+    padding: 40px 5%;
+    background-color: #111;
+    color: #fff;
+    box-sizing: border-box;
+  }
+  
+  /* Title styling */
+  .testimonial-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Main flex container for layout */
+  .testimonial-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Responsive: Stack items on small screens */
+  }
+  
+  /* Left side: Image + Name */
+  .testimonial-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 250px; /* Ensures consistency */
+  }
+  
+  .user-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .user-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .user-company {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  /* Right side: Quote */
+  .testimonial-right {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+    position: relative;
+  }
+  
+  .quote {
+    font-size: 40px;
+    color: gray;
+    position: relative;
+    top: 5px;
+  }
+  
+  /* Navigation buttons */
+  .testimonial-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .nav-button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: 0.3s;
+  }
+  
+  .nav-button:hover {
+    background: white;
+    color: black;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .testimonial-content {
+      flex-direction: column; /* Stack items vertically */
+      text-align: center;
+    }
+  
+    .testimonial-left {
+      justify-content: center;
+    }
+  
+    .testimonial-right {
+      text-align: center;
+    }
+  }
+  

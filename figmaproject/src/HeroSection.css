@@ -1,0 +1,36 @@
+.hero-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 2px;
+  }
+  
+  .image-text {
+    display: inline-block;
+    width: 60px; /* Adjust as needed */
+    height: 40px;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  
+  .image-text img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .subtext {
+    font-size: 1rem;
+    margin-top: 20px;
+    opacity: 0.8;
+  }
+  

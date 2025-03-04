@@ -1,0 +1,61 @@
+/* Full-width and responsive */
+.faq-wrapper {
+    width: 100%;
+    padding: 50px 0; /* Adds spacing between this and the above component */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .faq-container {
+    width: 90%;
+    max-width: 1000px; /* Ensures content doesn’t stretch too wide */
+    background-color: #121212;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  /* Title styling */
+  .faq-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  /* FAQ item styling */
+  .faq-item {
+    margin-bottom: 25px;
+  }
+  
+  /* Question styling */
+  .faq-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Answer text */
+  .faq-item p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .faq-container {
+      width: 95%;
+      padding: 20px;
+    }
+    
+    .faq-title {
+      font-size: 24px;
+    }
+  
+    .faq-item h3 {
+      font-size: 18px;
+    }
+  
+    .faq-item p {
+      font-size: 15px;
+    }
+  }
+  
